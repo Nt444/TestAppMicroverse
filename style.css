@@ -7,16 +7,18 @@ body {
     margin: 0 auto;
     max-width: 1600px;
     font-family: 'Source Serif Pro', serif;
+    position: relative;
+    background-color: #f2f5f7;
 }
 .Background-image {
     width: 1600px;
     height: 823px;
     object-fit: contain;
-
 }
 header {
     position:absolute;
     top: 0;
+    width: 100%;
 }
 .Nuemba {
     width: 79px;
@@ -28,6 +30,7 @@ header {
     line-height: normal;
     letter-spacing: normal;
     color: #ffffff;
+    margin-left: 17px;
 }
 .Menu-icon {
     width: 23px;
@@ -47,7 +50,6 @@ ul {
 }
 nav ul {
     display: flex;
-    /* justify-content: space-around; */
 }
 nav ul li {
     font-size: 13px;
@@ -60,4 +62,48 @@ nav ul li {
 }
 nav ul li a{
     color: #8798a4;
+}
+.brand {
+    margin: 31px 0 0 40px;
+    display: flex;
+    align-items: center;
+}
+.Separator {
+    width: 2px;
+    height: 35px;
+    border: solid 1px #383f43;
+    margin-top: 23px;
+}
+.Arrow {
+    width: 8px;
+    height: 9px;
+    object-fit: contain;
+    margin-left: 8px;
+}
+.Avatar-base {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+}
+.Avatar-Arrow {
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+    margin-right: 40px;
+}
+.ebooks-heading {
+    color: #ffffff;
+    font-size: 36px;
+}
+.tagline {
+    color: rgba(247, 249, 250, 0.5);
+    font-size: 18px;
+    margin-top: 11px;
+}
+.heading {
+    margin: 150px auto 0;
+    text-align: center;
+}
+.menu-elements:hover, .menu-elements:active {
+    color: #fff;
 }

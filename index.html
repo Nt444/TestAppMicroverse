@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
 </head>
+
 <body>
     <!-- Header background images -->
-    <img src="img/background-image.png"
-    srcset="img/background-image@2x.png 2x,
+    <img src="img/background-image.png" srcset="img/background-image@2x.png 2x,
             img/background-image@3x.png 3x"
-    class="Background-image">
+        class="Background-image">
     <header>
         <nav class="top">
             <div class="brand">
-                <!-- svg -->
-                <img src="img/menu-icon.svg"
-                class="Menu-icon">
+                <img src="img/menu-icon.svg" class="Menu-icon">
                 <span class="Nuemba">Nuemba</span>
             </div>
             <ul>
-                <li><a href="">
-                    Browse
-                </a></li>
-                <li><a href="">
-                    Top books
-                </a></li>
-                <li><a href="">
-                    Blog
-                </a></li>
-                <li><a href="">
-                    Help
-                </a></li>
+                <li><a class="menu-elements" href="">
+                        Browse
+                    </a></li>
+                <li><a class="menu-elements" href="">
+                        Top books
+                    </a></li>
+                <li><a class="menu-elements" href="">
+                        Blog
+                    </a></li>
+                <li><a class="menu-elements" href="">
+                        Help
+                    </a></li>
+                <li class="Separator"></li>
+                <li class="Avatar-Arrow">
+                    <img src="img/avatar-base.png" srcset="img/avatar-base@2x.png 2x,
+                            img/avatar-base@3x.png 3x"
+                        class="Avatar-base">
+                    <img src="img/arrow.svg" class="Arrow">
+                </li>
             </ul>
         </nav>
+        <div class="heading">
+            <p class="ebooks-heading">Ebooks for Designers</p>
+            <p class="tagline">from the deepest sphere of knowledge</p>
+        </div>
+
     </header>
 </body>
+
 </html>

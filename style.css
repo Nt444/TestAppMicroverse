@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+.Background-image {
+    width: 1600px;
+    height: 823px;
+    object-fit: contain;
+
+}
+.Nuemba {
+    width: 79px;
+    height: 25px;
+    font-family: SourceSerifPro;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.Menu-icon {
+    width: 23px;
+    height: 19px;
+    object-fit: contain;
+  }
+li a {
+    text-decoration: none;
+}

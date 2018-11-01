@@ -6,6 +6,7 @@
 body {
     margin: 0 auto;
     max-width: 1600px;
+    font-family: 'Source Serif Pro', serif;
 }
 .Background-image {
     width: 1600px;
@@ -13,10 +14,13 @@ body {
     object-fit: contain;
 
 }
+header {
+    position:absolute;
+    top: 0;
+}
 .Nuemba {
     width: 79px;
     height: 25px;
-    font-family: SourceSerifPro;
     font-size: 20px;
     font-weight: bold;
     font-style: normal;
@@ -32,4 +36,28 @@ body {
   }
 li a {
     text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    /* justify-content: space-around; */
+}
+nav ul li {
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin: 33px 69px 0 0;
+}
+nav ul li a{
+    color: #8798a4;
 }
